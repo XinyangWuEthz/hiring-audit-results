@@ -13,7 +13,10 @@ The results are exploratory development-benchmark findings.
 
 Edit the site files in this repository. If aggregate CSVs change, regenerate
 `results.js` with `python3 build_data.py`. Keep `poster.pdf` synchronized with
-the scientific repository's `poster/latex/main.pdf`. Push to `main` to publish.
+the scientific repository's `poster/latex/main.pdf`. The display version has
+roughly 0.55-inch top and bottom margins. Keep `poster-print.pdf` synchronized
+with `poster/latex/main-print.pdf`, which preserves the 1-inch print margins.
+Both PDFs are 43 × 24 inches. Push to `main` to publish.
 
 Research code and original records:
 https://github.com/Stereotypes-in-LLMs/hiring_bias_mitigation_at
